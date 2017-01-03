@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7B58A87B1E1BA0A1002065A8 /* SegmentView.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7B58A87A1E1BA0A1002065A8 /* SegmentView.gif */; };
+		7B58A87D1E1BA5BB002065A8 /* screenShort.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B58A87C1E1BA5BB002065A8 /* screenShort.png */; };
 		7B709A8A1E11FFA1004BF9DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B709A891E11FFA1004BF9DB /* main.m */; };
 		7B709A8D1E11FFA1004BF9DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B709A8C1E11FFA1004BF9DB /* AppDelegate.m */; };
 		7B709A901E11FFA1004BF9DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B709A8F1E11FFA1004BF9DB /* ViewController.m */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		7B58A87A1E1BA0A1002065A8 /* SegmentView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SegmentView.gif; sourceTree = "<group>"; };
+		7B58A87C1E1BA5BB002065A8 /* screenShort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenShort.png; sourceTree = "<group>"; };
 		7B709A851E11FFA1004BF9DB /* MWSegmentController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWSegmentController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B709A891E11FFA1004BF9DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7B709A8B1E11FFA1004BF9DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 		7B709A871E11FFA1004BF9DB /* MWSegmentController */ = {
 			isa = PBXGroup;
 			children = (
+				7B58A87C1E1BA5BB002065A8 /* screenShort.png */,
 				7B58A87A1E1BA0A1002065A8 /* SegmentView.gif */,
 				7B709ABB1E11FFD7004BF9DB /* MWSegmentController */,
 				7B709A8B1E11FFA1004BF9DB /* AppDelegate.h */,
@@ -288,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B709A981E11FFA1004BF9DB /* LaunchScreen.storyboard in Resources */,
+				7B58A87D1E1BA5BB002065A8 /* screenShort.png in Resources */,
 				7B58A87B1E1BA0A1002065A8 /* SegmentView.gif in Resources */,
 				7B709A951E11FFA1004BF9DB /* Assets.xcassets in Resources */,
 				7B709A931E11FFA1004BF9DB /* Main.storyboard in Resources */,

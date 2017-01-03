@@ -45,14 +45,9 @@
     test7.title = @"test7";
     [self addChildViewController:test7];
     
-
+    // 设置标题是否缩放
     self.isShowTitleScale = YES;
-    
-    [self setUpTitleScale:^(BOOL *isShowTitleScale, CGFloat *titleScale) {
-        *isShowTitleScale = YES;
-        *titleScale = 1.2;
-    }];
-    
+    // 一次性设置标题样式
     [self setUpTitleEffect:^(UIColor *__autoreleasing *titleScrollViewColor, UIColor *__autoreleasing *norColor, UIColor *__autoreleasing *selColor, UIFont *__autoreleasing *titleFont, CGFloat *titleHeight, CGFloat *titleWidth) {
         
         *titleScrollViewColor = [UIColor whiteColor];
